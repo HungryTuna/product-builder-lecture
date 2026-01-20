@@ -1,34 +1,28 @@
-
 # Project Blueprint
 
 ## Overview
 
-A simple, user-friendly web application to generate random lottery numbers.
+This project is a simple web application that generates lottery numbers. It features a clean interface and allows users to generate a new set of six unique numbers with a single click.
 
-## Style, Design, and Features
+## Features
 
-*   **Layout:** Centered content with a clean and minimalist design.
-*   **Color Scheme:** A simple and clean color scheme with a light gray background (`#f0f0f0`) and darker text.
-*   **Typography:** A standard sans-serif font for readability.
-*   **Functionality:**
-    *   A "번호 생성" (Generate Numbers) button to trigger the number generation.
-    *   A display area for the 6 unique, randomly generated lottery numbers.
-    *   The generated numbers are sorted in ascending order.
+-   **Lotto Number Generation:** Generates six unique random numbers between 1 and 45.
+-   **Simple UI:** A clean and straightforward user interface.
+-   **Dark/White Mode:** Includes a theme switcher to toggle between dark and white modes.
 
-## Current Task
+## Current Task: Add Dark/White Mode
 
-### Create a Lottery Number Generator Web Application
+### Plan
 
-*   **Objective:** Create a web page that allows users to generate 6 unique random numbers between 1 and 45.
-*   **Steps:**
-    1.  **HTML (`index.html`):**
-        *   Create the basic structure of the page with a title, a button, and a container for the numbers.
-        *   Link the CSS (`style.css`) and JavaScript (`main.js`) files.
-    2.  **CSS (`style.css`):**
-        *   Style the layout to be centered.
-        *   Style the button and the number display area.
-    3.  **JavaScript (`main.js`):**
-        *   Add an event listener to the "Generate" button.
-        *   When the button is clicked:
-            *   Generate 6 unique random numbers from 1 to 45.
-            *   Display the numbers on the page.
+1.  **CSS Changes:**
+    *   Create a `dark-mode.css` file to define the color scheme for dark mode.
+    *   Use CSS variables in `style.css` for easily themeable properties.
+    *   Add a `dark-mode` class to the `body` to activate the dark theme.
+2.  **HTML Changes:**
+    *   Add a theme switcher button to the `index.html` file.
+3.  **JavaScript Changes:**
+    *   Implement the logic in `main.js` to toggle the `dark-mode` class on the `body`.
+    *   Use `localStorage` to persist the selected theme across sessions.
+4.  **Deployment:**
+    *   Commit the changes to the Git repository.
+    *   Push the changes to the remote to deploy the update.
