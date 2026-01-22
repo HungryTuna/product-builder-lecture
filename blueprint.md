@@ -1,8 +1,26 @@
 # Project Blueprint
 
-## Overview
 
-This project is a simple web application that generates lottery numbers. It features a clean interface and allows users to generate a new set of six unique numbers with a single click.
+## Project Overview
+
+This is a framework-less web project developed in Firebase Studio, utilizing HTML, CSS, and JavaScript. The project aims to create a modern, responsive, and functional web application.
+
+## Feature: Partnership Inquiry Form
+
+### Purpose
+To provide a simple and efficient way for users to submit partnership inquiries directly through the website. This form leverages Formspree for backend processing, eliminating the need for server-side code.
+
+### Implementation Details
+- **Technology**: Formspree for form submission handling.
+- **Form Fields**:
+    - Name (text input)
+    - Email (email input)
+    - Company (text input)
+    - Message (textarea)
+- **Styling**: The form will be styled using modern CSS practices to ensure a clean, visually appealing, and responsive design, adhering to the project's overall aesthetic.
+- **HTML Structure**: The form will be integrated into `index.html` within a dedicated section.
+- **JavaScript (Optional)**: Basic client-side validation or feedback mechanisms might be added to `main.js` if necessary, though Formspree handles the core submission logic.
+
 
 ## Features
 
